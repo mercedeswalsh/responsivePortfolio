@@ -1,0 +1,115 @@
+
+body {
+    background-color: gainsboro;
+}
+.header {
+    background-color: grey;
+    font-size: 20px;
+    height: 60px;
+    padding-top: 18px;
+    padding-bottom: 90px;
+}
+
+#mynameBox {
+    background-color: mediumpurple;
+    font-size: 300%;
+    float: left;
+    margin-left: 150px;
+    padding: 35px;
+}
+#links {
+    background-color: grey;
+    float: right;
+    padding-top: 60px;
+    padding-right: 130px;
+}
+
+.headerLinks {
+    text-decoration: none;
+}
+
+.headerLinks:hover {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#portfolioBox {
+    background-color: white;
+    height: 600px;
+    width: 1500px;
+    margin-top: 95px;
+    padding-left: 35px;
+    padding-top: 25px;
+    padding-right: 35px;
+    padding-bottom: 45px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#portfolioTitle {
+    font-size: 45px;
+    padding-bottom: 25px;
+    margin-left: 49px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+#image1 {
+    margin-left: 50px;
+}
+
+#image2 {
+    margin-left: 50px;
+}
+
+#image3 {
+    margin-left: 50px;
+}
+
+#image4 {
+    margin-left: 50px;
+}
+
+#image5 {
+    margin-left: 50px;
+    
+}
+
+
+
+
+/* #image123 {
+    float: right;
+    margin-right: 538px;
+}
+
+#image4 {
+    float: right;
+    margin-right: 538px;
+}
+
+#image5 {
+    float: right;
+    margin-right: 538px;
+} */
+
+/* needs images resized */
+
+/* needs footer with copyright text */
+
+@media screen and (max-width: 980px;) {
+    
+}
+
+@media screen and (max-width: 768px;) {
+   
+}
+
+@media screen and (max-width: 640px;) {
+    header {
+        position: static;
+    }
+}

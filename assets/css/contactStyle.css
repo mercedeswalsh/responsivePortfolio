@@ -1,0 +1,103 @@
+
+body {
+    background-color: gainsboro;
+}
+.header {
+    background-color: grey;
+    font-size: 20px;
+    height: 60px;
+    padding-top: 18px;
+    padding-bottom: 90px;
+}
+
+#mynameBox {
+    background-color: mediumpurple;
+    font-size: 300%;
+    float: left;
+    margin-left: 150px;
+    padding: 35px;
+}
+#links {
+    background-color: grey;
+    float: right;
+    padding-top: 60px;
+    padding-right: 130px;
+}
+
+.headerLinks {
+    text-decoration: none;
+}
+
+.headerLinks:hover {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#contactBox {
+    background-color: white;
+    height: 600px;
+    width: 1500px;
+    margin-top: 95px;
+    padding-left: 35px;
+    padding-top: 25px;
+    padding-right: 35px;
+    padding-bottom: 45px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#contactTitle {
+    font-size: 45px;
+    padding-bottom: 25px;
+    margin-left: 49px;
+}
+
+#formBox {
+    font-size: 20px;
+    margin-left: 110px;
+
+
+}
+
+#namefillBox {
+    height: 40px;
+    width: 300px;
+    margin-left: 40px;
+}
+
+#emailfillBox {
+    height: 40px;
+    width: 300px;
+    margin-left: 44px;
+}
+
+#messagefillBox {
+    height: 100px;
+    width: 300px;
+    margin-left: 13px;
+}
+
+#submitButton {
+    height: 60px;
+    width: 300px;
+    margin-left: 20px;
+    background-color: rgba(153, 88, 184, 0.835);
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+
+/* needs footer with copyright text */
+
+@media screen and (max-width: 980px;) {
+    
+}
+
+@media screen and (max-width: 768px;) {
+   
+}
+
+@media screen and (max-width: 640px;) {
+    header {
+        position: static;
+    }
+}
